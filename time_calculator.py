@@ -39,7 +39,7 @@ def add_time(start, duration, day_input = None):
   # calculate day
   day_index_before    = day_list.index(day_before) if day_before is not None else 0
   if (
-      (min_add >= 60 and hour_add >= 24) or 
+      (min_add >= 60   and hour_add >= 24) or 
       (hour_left >= 12 and timing_before == 'PM' and timing_after == 'AM')
     )  : day_add = hour_added_to_day + 1
   else : day_add = hour_added_to_day

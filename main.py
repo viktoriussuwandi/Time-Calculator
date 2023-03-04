@@ -9,16 +9,9 @@ print(add_time("11:06 PM", "2:02"))
 # Run unit tests automatically
 main(module='test_module', exit=False)
 
-# -----------------------------------------------------------------------------
+# -----------------------------------------------------------
 # MY TESTER CODE
-# -----------------------------------------------------------------------------
-# min_added_to_hour = 0
-# def calc_minute_left (min) :
-#   min_left = min - int(min/60)
-#   if (min_left < 60) : return min
-#   elif min_left >=60 : 
-#     min_added_to_hour += 1
-#     calc_minute_left(min_left)
+# -----------------------------------------------------------
   
 def add_time1(start, duration, day_input = None) :
   import math
@@ -76,7 +69,7 @@ def add_time1(start, duration, day_input = None) :
   # calculate after day
   many_days_after = ' (next day)' if day_add == 1 else f' ({day_add} days later)' if day_add > 1 else ''
   
-  # --------------------------------------------------------------------------------
+  # ---------------------------------------------------------
   # format the output
   final_time['min']        = f'{min_after}' if min_after >=10 else f'0{min_after}'
   final_time['hour']       = f'{hour_after}'
@@ -138,4 +131,4 @@ def test() :
 
   print(add_time1("11:06 PM", "2:02"))
   
-# test()
+test()
