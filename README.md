@@ -1,6 +1,9 @@
 # Time Calculator
+#### Solution running on : https://replit.com/@ViktoriusSuwand/Time-Calculator
 
-This is the result for theto complete Time Calculator project. Instructions for building this project can be found at https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/time-calculator
+This is the result for theto complete Time Calculator project. 
+Instructions for building this project can be found at 
+https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/time-calculator
 
 ###  Some of additional features :
 #### -Using tupple to pass variable between functions
