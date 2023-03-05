@@ -28,11 +28,13 @@ https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-c
 
 ![example](example.jpg)
 
+
 ### Development
 Write your code in `time_calculator.py`. For development, you can use main.py to test your `time_calculator()` function. Click the "run" button and `main.py` will run.
 
 ### Testing
 The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to main.py for your convenience. The tests will run automatically whenever you hit the "run" button.
+
 
 #### Test Result 
 ![complete](complete.jpg)
