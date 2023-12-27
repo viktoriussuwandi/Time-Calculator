@@ -1,5 +1,5 @@
 # Time Calculator
-#### Solution running on : https://replit.com/@ViktoriusSuwand/Time-Calculator
+#### Documentation can be found on : [https://github.com/viktoriussuwandi/Time-Calculator](https://github.com/viktoriussuwandi/Time-Calculator)
 
 This is the result for the complete Time Calculator project. 
 Instructions for building this project can be found at 
